@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("back.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    height: 80vh;
+    position: relative;
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+nav img{
+    width: 160px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 23px;
+    padding:0 30px;
+ 
+}
+.head{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+
+}
+.head2{
+    font-size: 24px;
+    text-align: center;
+}
+.head3{
+    font-size: 20px;
+    text-align: center;
+}
+.user{
+    display: flex;
+   gap: 12px;
+}
+.btn{
+    background-color: rgba(248, 243, 243, 0.068);
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+  
+}
+.main input{
+    padding: 7px 101px 8px 14px; 
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+   
+    border: 1px solid rgba(246,238,238,0.3);
+    color: white;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+   
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    
+}
+.last{
+    padding: 7px 101px 8px 14px; 
+    font-size: 22px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+   
+    border: 1px solid rgba(246,238,238,0.3);
+    color: white;
+    width: 30vw;
+    
+}
+.secimage{
+/* width: 600px;
+height: 500px;
+padding-top: 30px; */
+}
+.secimage video{
+    width: 600px;
+height: 600px;
+}
+@media only screen and (max-width:600px){
+    .secimage video{
+        height: 200px;
+        width: 200px;
+        padding-top: 30px;
+    }
+    .enjoy{
+        font-size: 10px;
+    }
+    .child{
+        font-size: 4px;
+    }
+    .faq{
+        font-size: 7px;
+    }
+}
+.enjoy{
+font-size: 48px;
+font-weight: bolder;
+}
+.enjoy2{
+    margin-top: 10px;
+}
+.separation{
+    height: 10px;
+    color: grey;
+    width: 100%;
+}
+.hello{
+    padding: 32px;
+}
+.hello2{
+    padding: 60px;
+}
+.faq{
+    color: white;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.faqbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ask{
+    height: 6vw;
+    width: 70vw;
+    margin: auto;
+    background-color: rgba(23,23,23,0.7);
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+
+    align-items: center;
+}
+.heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+}
+.final{
+    margin-top: 32px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+   
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: white;
+}
+.footer-items a{
+    color: white;
+}
+.happy{
+    margin-top: 34px;
+}
+.end{
+    margin-top: 50px;
+}
